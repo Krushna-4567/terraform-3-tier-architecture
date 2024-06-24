@@ -134,7 +134,7 @@ resource "aws_route_table_association" "b" {
 
 #Create EC2 Instance
 resource "aws_instance" "webserver1" {
-  ami                    = "ami-0d5eff06f840b45e9"
+  ami                    = "ami-08a0d1e16fc3f61ea"
   instance_type          = "t2.micro"
   availability_zone      = "us-east-1a"
   key_name               = "Linux_key"
@@ -148,7 +148,7 @@ resource "aws_instance" "webserver1" {
 }
 
 resource "aws_instance" "webserver2" {
-  ami                    = "ami-0d5eff06f840b45e9"
+  ami                    = "ami-08a0d1e16fc3f61ea"
   instance_type          = "t2.micro"
   availability_zone      = "us-east-1b"
   key_name               = "Linux_key"
@@ -163,7 +163,7 @@ resource "aws_instance" "webserver2" {
 
 #Create EC2 Instance
 resource "aws_instance" "appserver1" {
-  ami                    = "ami-0d5eff06f840b45e9"
+  ami                    = "ami-08a0d1e16fc3f61ea"
   instance_type          = "t2.micro"
   availability_zone      = "us-east-1a"
   key_name               = "Linux_key"
@@ -175,7 +175,7 @@ resource "aws_instance" "appserver1" {
 }
 
 resource "aws_instance" "appserver2" {
-  ami                    = "ami-0d5eff06f840b45e9"
+  ami                    = "ami-08a0d1e16fc3f61ea"
   instance_type          = "t2.micro"
   availability_zone      = "us-east-1b"
   key_name               = "Linux_key"
